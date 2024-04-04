@@ -3,12 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
+      <class name="Kirthiga.SearchAndAddToCart">
+        <methods>
+          <include name="shoppingCart"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- Kirthiga.SearchAndAddToCart -->
+=======
       <class name="tanuja.TC02_BuyFromCartCOD">
         <methods>
           <include name="buyProduct"/>
           <include name="beforeclass"/>
         </methods>
       </class> <!-- tanuja.TC02_BuyFromCartCOD -->
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

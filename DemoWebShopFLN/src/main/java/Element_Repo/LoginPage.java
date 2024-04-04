@@ -26,6 +26,13 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath = "//input[@value='Log in']")
 	private WebElement Login;
 
+	@FindBy(id="small-searchterms")
+	private WebElement searchBar; 
+	
+	public WebElement getSearchBar() {
+		return searchBar;
+	}
+
 	public WebElement getEmailtextbox() {
 		return emailtextbox;
 	}	
@@ -46,6 +53,8 @@ public class LoginPage extends BasePage {
 		return Loginlink;
 	}
 
+	 
+	
 	public Home_Page Login_Actions(String username, String password)
 	{
 	
