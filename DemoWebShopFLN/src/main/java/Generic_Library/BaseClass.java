@@ -37,11 +37,7 @@ public class BaseClass  {
 
 	@AfterMethod
 	public void afterclass() {
-//<<<<<<< HEAD
 	driver.quit();
-
 		//close browser
-		driver.quit();
-//>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
 	}
 }
