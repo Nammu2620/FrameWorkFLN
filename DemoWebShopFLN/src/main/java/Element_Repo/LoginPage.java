@@ -11,7 +11,7 @@ public class LoginPage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(partialLinkText ="Log in")
+@FindBy(partialLinkText ="Log in")
 	private WebElement Loginlink;
 	
 	@FindBy(id = "Email")

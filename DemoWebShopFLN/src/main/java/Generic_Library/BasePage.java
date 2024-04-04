@@ -11,6 +11,7 @@ public WebDriver driver;
 
 	public BasePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
+		this.driver=driver;
 	}
 
 	@FindBy(linkText ="Register")

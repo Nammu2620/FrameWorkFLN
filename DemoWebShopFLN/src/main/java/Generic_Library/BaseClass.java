@@ -2,11 +2,11 @@ package Generic_Library;
 
 import java.time.Duration;
 
-import org.junit.AfterClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 public class BaseClass  {
@@ -34,7 +34,7 @@ public class BaseClass  {
 		Reporter.log("URL is entered");
 	}
 
-	@AfterClass
+	@AfterMethod
 	public void afterclass() {
 		//close browser
 		driver.quit();
