@@ -9,11 +9,19 @@ import Generic_Library.BasePage;
 public class LoginPage extends BasePage {
 	public LoginPage(WebDriver driver) {
 		super(driver);
+<<<<<<< HEAD
 	}
 
+=======
+	}
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
 	@FindBy(partialLinkText = "Log in")
 	private WebElement Loginlink;
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
 	@FindBy(id = "Email")
 	private WebElement emailtextbox;
 
@@ -29,6 +37,28 @@ public class LoginPage extends BasePage {
 	@FindBy(id = "small-searchterms")
 	private WebElement searchBar;
 
+<<<<<<< HEAD
+=======
+	public WebElement getSearchBar() {
+		return searchBar;
+	}
+	
+	public WebElement getLogin() {
+		return Login;
+	}
+
+	public WebElement getEmailtextbox() {
+		return emailtextbox;
+	}
+
+	public WebElement getPasswordtextbox() {
+		return passwordtextbox;
+	}
+
+	public WebElement getRemembermetextbox() {
+		return remembermetextbox;
+	}
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
 
 	public WebElement getLoginlink() {
 		return Loginlink;
