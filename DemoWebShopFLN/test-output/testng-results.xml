@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched]]>
+    </line>
+    <line>
+      <![CDATA[URL is entered]]>
+    </line>
+    <line>
+      <![CDATA[Logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on books Category]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Add to Cart button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shopping Cart button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Remove check box]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Update Shopping Cart]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Logout]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-04T14:57:57 IST" name="Default suite" finished-at="2024-04-04T14:58:15 IST" duration-ms="18197">
+    <groups>
+    </groups>
+    <test started-at="2024-04-04T14:57:57 IST" name="Default test" finished-at="2024-04-04T14:58:15 IST" duration-ms="18197">
+      <class name="Renuka.TC_LogoutFromApp_002_Test">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Renuka.TC_LogoutFromApp_002_Test@cd3fee8]" started-at="2024-04-04T14:57:57 IST" name="beforeclass" finished-at="2024-04-04T14:58:04 IST" duration-ms="7239" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched]]>
+            </line>
+            <line>
+              <![CDATA[URL is entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="logoutApp()[pri:0, instance:Renuka.TC_LogoutFromApp_002_Test@cd3fee8]" started-at="2024-04-04T14:58:04 IST" name="logoutApp" finished-at="2024-04-04T14:58:15 IST" duration-ms="10892" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on books Category]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Add to Cart button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shopping Cart button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Remove check box]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Update Shopping Cart]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+      </class> <!-- Renuka.TC_LogoutFromApp_002_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
