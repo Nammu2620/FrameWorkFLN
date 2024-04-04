@@ -8,12 +8,12 @@
       <![CDATA[URL is entered]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-04-04T13:22:25 IST" name="Default suite" finished-at="2024-04-04T13:22:41 IST" duration-ms="15861">
+  <suite started-at="2024-04-04T15:34:41 IST" name="Default suite" finished-at="2024-04-04T15:35:01 IST" duration-ms="20063">
     <groups>
     </groups>
-    <test started-at="2024-04-04T13:22:25 IST" name="Default test" finished-at="2024-04-04T13:22:41 IST" duration-ms="15861">
+    <test started-at="2024-04-04T15:34:41 IST" name="Default test" finished-at="2024-04-04T15:35:01 IST" duration-ms="20063">
       <class name="Kirthiga.SearchAndAddToCart">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Kirthiga.SearchAndAddToCart@3232a28a]" started-at="2024-04-04T13:22:25 IST" name="beforeclass" finished-at="2024-04-04T13:22:35 IST" duration-ms="9616" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Kirthiga.SearchAndAddToCart@729d991e]" started-at="2024-04-04T15:34:41 IST" name="beforeclass" finished-at="2024-04-04T15:34:52 IST" duration-ms="11168" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser launched]]>
@@ -23,7 +23,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="shoppingCart()[pri:0, instance:Kirthiga.SearchAndAddToCart@3232a28a]" started-at="2024-04-04T13:22:35 IST" name="shoppingCart" finished-at="2024-04-04T13:22:41 IST" duration-ms="6190" status="PASS">
+        <test-method signature="shoppingCart()[pri:0, instance:Kirthiga.SearchAndAddToCart@729d991e]" started-at="2024-04-04T15:34:52 IST" name="shoppingCart" finished-at="2024-04-04T15:35:01 IST" duration-ms="8840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shoppingCart -->
