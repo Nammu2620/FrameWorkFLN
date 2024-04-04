@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
@@ -80,6 +81,202 @@
           </reporter-output>
         </test-method> <!-- afterclass -->
       </class> <!-- VarshiniJM.SearchForProduct -->
+=======
+<<<<<<< HEAD
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched]]>
+    </line>
+    <line>
+      <![CDATA[URL is entered]]>
+    </line>
+    <line>
+      <![CDATA[Logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on books Category]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Add to Cart button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shopping Cart button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Remove check box]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Update Shopping Cart]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Logout]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-04T15:51:59 IST" name="Default suite" finished-at="2024-04-04T15:52:18 IST" duration-ms="19352">
+    <groups>
+    </groups>
+    <test started-at="2024-04-04T15:51:59 IST" name="Default test" finished-at="2024-04-04T15:52:18 IST" duration-ms="19352">
+      <class name="Renuka.TC_LogoutFromApp_002_Test">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Renuka.TC_LogoutFromApp_002_Test@3c419631]" started-at="2024-04-04T15:51:59 IST" name="beforeclass" finished-at="2024-04-04T15:52:09 IST" duration-ms="9894" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched]]>
+            </line>
+            <line>
+              <![CDATA[URL is entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="logoutApp()[pri:0, instance:Renuka.TC_LogoutFromApp_002_Test@3c419631]" started-at="2024-04-04T15:52:09 IST" name="logoutApp" finished-at="2024-04-04T15:52:18 IST" duration-ms="9011" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on books Category]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Add to Cart button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shopping Cart button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Remove check box]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Update Shopping Cart]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Renuka.TC_LogoutFromApp_002_Test@3c419631]" started-at="2024-04-04T15:52:18 IST" name="afterclass" finished-at="2024-04-04T15:52:18 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- Renuka.TC_LogoutFromApp_002_Test -->
+=======
+<<<<<<< HEAD
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched]]>
+    </line>
+    <line>
+      <![CDATA[URL is entered]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37265" started-at="2024-04-04T14:33:03 IST" finished-at="2024-04-04T14:33:41 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37265" started-at="2024-04-04T14:33:03 IST" finished-at="2024-04-04T14:33:41 IST">
+      <class name="scripts_of_praneetha.AddToWishlist">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:scripts_of_praneetha.AddToWishlist@631330c]" name="beforeclass" is-config="true" duration-ms="11143" started-at="2024-04-04T14:33:03 IST" finished-at="2024-04-04T14:33:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched]]>
+            </line>
+            <line>
+              <![CDATA[URL is entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="addToWishlist()[pri:0, instance:scripts_of_praneetha.AddToWishlist@631330c]" name="addToWishlist" duration-ms="25257" started-at="2024-04-04T14:33:14 IST" finished-at="2024-04-04T14:33:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToWishlist -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:scripts_of_praneetha.AddToWishlist@631330c]" name="afterclass" is-config="true" duration-ms="825" started-at="2024-04-04T14:33:40 IST" finished-at="2024-04-04T14:33:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- scripts_of_praneetha.AddToWishlist -->
+=======
+<<<<<<< HEAD
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+=======
+<<<<<<< HEAD
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched]]>
+    </line>
+    <line>
+      <![CDATA[URL is entered]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-04T15:34:41 IST" name="Default suite" finished-at="2024-04-04T15:35:01 IST" duration-ms="20063">
+    <groups>
+    </groups>
+    <test started-at="2024-04-04T15:34:41 IST" name="Default test" finished-at="2024-04-04T15:35:01 IST" duration-ms="20063">
+      <class name="Kirthiga.SearchAndAddToCart">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Kirthiga.SearchAndAddToCart@729d991e]" started-at="2024-04-04T15:34:41 IST" name="beforeclass" finished-at="2024-04-04T15:34:52 IST" duration-ms="11168" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched]]>
+            </line>
+            <line>
+              <![CDATA[URL is entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="shoppingCart()[pri:0, instance:Kirthiga.SearchAndAddToCart@729d991e]" started-at="2024-04-04T15:34:52 IST" name="shoppingCart" finished-at="2024-04-04T15:35:01 IST" duration-ms="8840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingCart -->
+      </class> <!-- Kirthiga.SearchAndAddToCart -->
+=======
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched]]>
+    </line>
+    <line>
+      <![CDATA[URL is entered]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-04T15:44:30 IST" name="Default suite" finished-at="2024-04-04T15:45:33 IST" duration-ms="63106">
+    <groups>
+    </groups>
+    <test started-at="2024-04-04T15:44:30 IST" name="Default test" finished-at="2024-04-04T15:45:33 IST" duration-ms="63106">
+      <class name="Shushmitha.TC_01_AddToCart_Test">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Shushmitha.TC_01_AddToCart_Test@64cd705f]" started-at="2024-04-04T15:44:30 IST" name="beforeclass" finished-at="2024-04-04T15:45:21 IST" duration-ms="50639" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched]]>
+            </line>
+            <line>
+              <![CDATA[URL is entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="TC01Test()[pri:0, instance:Shushmitha.TC_01_AddToCart_Test@64cd705f]" started-at="2024-04-04T15:45:21 IST" name="TC01Test" finished-at="2024-04-04T15:45:33 IST" duration-ms="11593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+<<<<<<< HEAD
+        </test-method> <!-- TC01Test -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Shushmitha.TC_01_AddToCart_Test@64cd705f]" started-at="2024-04-04T15:45:33 IST" name="afterclass" finished-at="2024-04-04T15:45:33 IST" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- Shushmitha.TC_01_AddToCart_Test -->
+=======
+        </test-method> <!-- buyProduct -->
+      </class> <!-- tanuja.TC02_BuyFromCartCOD -->
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

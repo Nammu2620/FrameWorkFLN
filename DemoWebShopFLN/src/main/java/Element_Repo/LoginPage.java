@@ -10,22 +10,27 @@ public class LoginPage extends BasePage {
 	public LoginPage(WebDriver driver) {
 		super(driver);
 	}
-
-	
-@FindBy(partialLinkText ="Log in")
+	@FindBy(partialLinkText = "Log in")
 	private WebElement Loginlink;
-	
+
 	@FindBy(id = "Email")
 	private WebElement emailtextbox;
 
 	@FindBy(id = "Password")
 	private WebElement passwordtextbox;
 
-	@FindBy(id="RememberMe")
+	@FindBy(id = "RememberMe")
 	private WebElement remembermetextbox;
 
 	@FindBy(xpath = "//input[@value='Log in']")
 	private WebElement Login;
+
+	@FindBy(id = "small-searchterms")
+	private WebElement searchBar;
+
+	public WebElement getSearchBar() {
+		return searchBar;
+	}
 
 	public WebElement getEmailtextbox() {
 		return emailtextbox;
@@ -33,8 +38,7 @@ public class LoginPage extends BasePage {
 
 	public WebElement getPasswordtextbox() {
 		return passwordtextbox;
-	}	
-
+	}
 
 	public WebElement getRemembermetextbox() {
 		return remembermetextbox;
@@ -47,9 +51,9 @@ public class LoginPage extends BasePage {
 	public WebElement getLoginlink() {
 		return Loginlink;
 	}
-	public Home_Page Login_Actions(String username, String password)
-	{
-	
+
+	public Home_Page Login_Actions(String username, String password) {
+
 		getLoginlink().click();
 		emailtextbox.sendKeys(username);
 		passwordtextbox.sendKeys(password);
@@ -58,9 +62,8 @@ public class LoginPage extends BasePage {
 
 	}
 
-	public void Logout()
-	{
+	public void Logout() {
 		getLogout().click();
-	
+
 	}
 }
