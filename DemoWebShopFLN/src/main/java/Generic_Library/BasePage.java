@@ -5,118 +5,105 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public abstract class BasePage {
-	
-public WebDriver driver;
+public class BasePage {
 
-public BasePage(WebDriver driver) {
-	PageFactory.initElements(driver, this);
-	
-	
-}
-@FindBy(linkText ="Register")
-private WebElement Registerlink;
+	public  WebDriver driver;
 
-@FindBy(partialLinkText ="Log in")
-private WebElement Loginlink;
+	public BasePage(WebDriver driver) {
+		//this.driver=driver;
+		PageFactory.initElements(driver, this);
 
-public WebElement getRegisterlink() {
-	return Registerlink;
-}
+	}
 
-public WebElement getLoginlink() {
-	return Loginlink;
-}
+	@FindBy(linkText = "Register")
+	private WebElement Registerlink;
 
-public WebElement getShoppingCartlink() {
-	return ShoppingCartlink;
-}
+	@FindBy(partialLinkText = "Log in")
+	private WebElement Loginlink;
 
-public WebElement getWishListlink() {
-	return WishListlink;
-}
+	public WebElement getRegisterlink() {
+		return Registerlink;
+	}
 
-public WebElement getSearchButton() {
-	return SearchButton;
-}
+	public WebElement getLoginlink() {
+		return Loginlink;
+	}
 
-public WebElement getBooksLink() {
-	return BooksLink;
-}
+	public WebElement getShoppingCartlink() {
+		return ShoppingCartlink;
+	}
 
-public WebElement getComputerLink() {
-	return ComputerLink;
-}
+	public WebElement getWishListlink() {
+		return WishListlink;
+	}
 
-public WebElement getElectronicsLink() {
-	return ElectronicsLink;
-}
+	public WebElement getSearchButton() {
+		return SearchButton;
+	}
 
-public WebElement getApparelshoesLink() {
-	return apparelshoesLink;
-}
+	public WebElement getBooksLink() {
+		return BooksLink;
+	}
 
-public WebElement getDigitaldownloadsLink() {
-	return digitaldownloadsLink;
-}
+	public WebElement getComputerLink() {
+		return ComputerLink;
+	}
 
-public WebElement getJewelryLink() {
-	return jewelryLink;
-}
+	public WebElement getElectronicsLink() {
+		return ElectronicsLink;
+	}
 
-public WebElement getGiftcards() {
-	return giftcards;
-}
+	public WebElement getApparelshoesLink() {
+		return apparelshoesLink;
+	}
 
+	public WebElement getDigitaldownloadsLink() {
+		return digitaldownloadsLink;
+	}
 
-@FindBy(partialLinkText ="Shopping cart")
-private WebElement ShoppingCartlink;
+	public WebElement getJewelryLink() {
+		return jewelryLink;
+	}
 
+	public WebElement getGiftcards() {
+		return giftcards;
+	}
 
-@FindBy(partialLinkText ="Wishlist")
-private WebElement WishListlink;
+	@FindBy(partialLinkText = "Shopping cart")
+	private WebElement ShoppingCartlink;
 
+	@FindBy(partialLinkText = "Wishlist")
+	private WebElement WishListlink;
 
-@FindBy(xpath ="//input[@value='Search']")
-private WebElement SearchButton ;
+	@FindBy(xpath = "//input[@value='Search']")
+	private WebElement SearchButton;
 
+	@FindBy(linkText = "Books")
+	private WebElement BooksLink;
 
-@FindBy(linkText ="Books")
-private WebElement BooksLink ;
+	@FindBy(linkText = "Computers")
+	private WebElement ComputerLink;
 
+	@FindBy(linkText = "Electronics")
+	private WebElement ElectronicsLink;
 
-@FindBy(linkText ="Computers")
-private WebElement  ComputerLink;
+	@FindBy(partialLinkText = "Apparel & Shoes")
+	private WebElement apparelshoesLink;
 
-@FindBy(linkText ="Electronics")
-private WebElement  ElectronicsLink;
+	@FindBy(partialLinkText = "Digital downloads")
+	private WebElement digitaldownloadsLink;
 
-@FindBy(partialLinkText ="Apparel & Shoes")
-private WebElement apparelshoesLink;
+	@FindBy(linkText = "Jewelry")
+	private WebElement jewelryLink;
 
-@FindBy(partialLinkText ="Digital downloads")
-private WebElement digitaldownloadsLink;
+	@FindBy(partialLinkText = "Gift Cards")
+	private WebElement giftcards;
 
-@FindBy(linkText ="Jewelry")
-private WebElement jewelryLink;
+	@FindBy(partialLinkText = "Log out")
+	private WebElement Logout;
 
-@FindBy(partialLinkText ="Gift Cards")
-private WebElement giftcards;
-
-@FindBy(partialLinkText = "Log out")
-private WebElement Logout;
-
-
-
-public WebElement getLogout() {
-	return Logout;
-}
-
-
-
+	public WebElement getLogout() {
+		return Logout;
+	}
 
 }
-
-
-
-
