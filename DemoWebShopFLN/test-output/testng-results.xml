@@ -9,6 +9,7 @@
       <![CDATA[URL is entered]]>
     </line>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2024-04-04T16:23:52 IST" name="Default suite" finished-at="2024-04-04T16:24:44 IST" duration-ms="51796">
     <groups>
     </groups>
@@ -33,6 +34,32 @@
           </reporter-output>
         </test-method> <!-- afterclass -->
       </class> <!-- Shushmitha.TC_01_AddToCart_Test -->
+=======
+  <suite started-at="2024-04-04T16:16:22 IST" name="Default suite" finished-at="2024-04-04T16:16:37 IST" duration-ms="15586">
+    <groups>
+    </groups>
+    <test started-at="2024-04-04T16:16:22 IST" name="Default test" finished-at="2024-04-04T16:16:37 IST" duration-ms="15586">
+      <class name="sm_testcases.TC_02_BuyProduct_Test">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:sm_testcases.TC_02_BuyProduct_Test@70e8f8e]" started-at="2024-04-04T16:16:22 IST" name="beforeclass" finished-at="2024-04-04T16:16:29 IST" duration-ms="7100" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched]]>
+            </line>
+            <line>
+              <![CDATA[URL is entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="buyproduct()[pri:0, instance:sm_testcases.TC_02_BuyProduct_Test@70e8f8e]" started-at="2024-04-04T16:16:29 IST" name="buyproduct" finished-at="2024-04-04T16:16:32 IST" duration-ms="3022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyproduct -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:sm_testcases.TC_02_BuyProduct_Test@70e8f8e]" started-at="2024-04-04T16:16:32 IST" name="afterclass" finished-at="2024-04-04T16:16:37 IST" duration-ms="5403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- sm_testcases.TC_02_BuyProduct_Test -->
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
 =======
 <<<<<<< HEAD
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">

@@ -9,7 +9,7 @@ import Element_Repo.LoginPage;
 import Element_Repo.ShoppingCartPage;
 import Generic_Library.BaseClass;
 
-public class TC_01_PlaceOrder_Test extends BaseClass{
+public class TC_01_AddToCart_Test extends BaseClass{
 
 	@Test
 	 public void TC01Test() {

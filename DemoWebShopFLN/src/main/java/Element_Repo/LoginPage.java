@@ -10,6 +10,7 @@ public class LoginPage extends BasePage {
 	public LoginPage(WebDriver driver) {
 		super(driver);
 	}
+
 	@FindBy(partialLinkText = "Log in")
 	private WebElement Loginlink;
 
@@ -28,8 +29,9 @@ public class LoginPage extends BasePage {
 	@FindBy(id = "small-searchterms")
 	private WebElement searchBar;
 
-	public WebElement getSearchBar() {
-		return searchBar;
+
+	public WebElement getLoginlink() {
+		return Loginlink;
 	}
 
 	public WebElement getEmailtextbox() {
@@ -48,8 +50,8 @@ public class LoginPage extends BasePage {
 		return Login;
 	}
 
-	public WebElement getLoginlink() {
-		return Loginlink;
+	public WebElement getSearchBar() {
+		return searchBar;
 	}
 
 	public Home_Page Login_Actions(String username, String password) {

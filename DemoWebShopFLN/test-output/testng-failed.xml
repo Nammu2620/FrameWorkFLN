@@ -4,6 +4,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="sm_testcases.TC_02_BuyProduct_Test">
+        <methods>
+          <include name="buyproduct"/>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- sm_testcases.TC_02_BuyProduct_Test -->
+=======
+<<<<<<< HEAD
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
       <class name="VarshiniJM.RegisterToApplication_Test">
         <methods>
           <include name="Register"/>
@@ -40,6 +52,7 @@
           <include name="beforeclass"/>
         </methods>
       </class> <!-- tanuja.TC02_BuyFromCartCOD -->
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
 >>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
 >>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
 >>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
