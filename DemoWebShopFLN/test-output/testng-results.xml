@@ -32,12 +32,12 @@
       <![CDATA[Clicked on Logout]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-04-04T14:57:57 IST" name="Default suite" finished-at="2024-04-04T14:58:15 IST" duration-ms="18197">
+  <suite started-at="2024-04-04T15:51:59 IST" name="Default suite" finished-at="2024-04-04T15:52:18 IST" duration-ms="19352">
     <groups>
     </groups>
-    <test started-at="2024-04-04T14:57:57 IST" name="Default test" finished-at="2024-04-04T14:58:15 IST" duration-ms="18197">
+    <test started-at="2024-04-04T15:51:59 IST" name="Default test" finished-at="2024-04-04T15:52:18 IST" duration-ms="19352">
       <class name="Renuka.TC_LogoutFromApp_002_Test">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Renuka.TC_LogoutFromApp_002_Test@cd3fee8]" started-at="2024-04-04T14:57:57 IST" name="beforeclass" finished-at="2024-04-04T14:58:04 IST" duration-ms="7239" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Renuka.TC_LogoutFromApp_002_Test@3c419631]" started-at="2024-04-04T15:51:59 IST" name="beforeclass" finished-at="2024-04-04T15:52:09 IST" duration-ms="9894" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser launched]]>
@@ -47,7 +47,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="logoutApp()[pri:0, instance:Renuka.TC_LogoutFromApp_002_Test@cd3fee8]" started-at="2024-04-04T14:58:04 IST" name="logoutApp" finished-at="2024-04-04T14:58:15 IST" duration-ms="10892" status="PASS">
+        <test-method signature="logoutApp()[pri:0, instance:Renuka.TC_LogoutFromApp_002_Test@3c419631]" started-at="2024-04-04T15:52:09 IST" name="logoutApp" finished-at="2024-04-04T15:52:18 IST" duration-ms="9011" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logged in successfully]]>
@@ -75,6 +75,10 @@
             </line>
           </reporter-output>
         </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Renuka.TC_LogoutFromApp_002_Test@3c419631]" started-at="2024-04-04T15:52:18 IST" name="afterclass" finished-at="2024-04-04T15:52:18 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
       </class> <!-- Renuka.TC_LogoutFromApp_002_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
