@@ -2,7 +2,6 @@ package Generic_Library;
 
 import java.time.Duration;
 
-import org.junit.AfterClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -12,8 +11,8 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseClass  {
 
-//	public BaseClass(WebDriver driver) {
-//		super(driver);
+//	public BaseClass() {
+//		//super(driver);
 //		// TODO Auto-generated constructor stub
 //	}
 
@@ -36,8 +35,13 @@ public class BaseClass  {
 	}
 
 	@AfterMethod
+<<<<<<< HEAD
 	public void afterclass() throws InterruptedException {
 		Thread.sleep(5000);
+=======
+	public void afterclass() {
+		//close browser
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
 		driver.quit();
 	}
 }

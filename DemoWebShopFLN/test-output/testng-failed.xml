@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
@@ -10,6 +11,51 @@
           <include name="beforeclass"/>
         </methods>
       </class> <!-- sm_testcases.TC_02_BuyProduct_Test -->
+=======
+<<<<<<< HEAD
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="VarshiniJM.RegisterToApplication_Test">
+        <methods>
+          <include name="Register"/>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- VarshiniJM.RegisterToApplication_Test -->
+=======
+<<<<<<< HEAD
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="scripts_of_praneetha.AddToWishlist">
+        <methods>
+          <include name="addToWishlist"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- scripts_of_praneetha.AddToWishlist -->
+=======
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+<<<<<<< HEAD
+      <class name="Kirthiga.SearchAndAddToCart">
+        <methods>
+          <include name="shoppingCart"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- Kirthiga.SearchAndAddToCart -->
+=======
+      <class name="tanuja.TC02_BuyFromCartCOD">
+        <methods>
+          <include name="buyProduct"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- tanuja.TC02_BuyFromCartCOD -->
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
+>>>>>>> branch 'master' of https://github.com/Nammu2620/FrameWorkFLN.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
