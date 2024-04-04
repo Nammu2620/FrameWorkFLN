@@ -5,12 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public abstract class BasePage {
-	
-public WebDriver driver;
+public class BasePage {
+
+
+	public  WebDriver driver;
 
 	public BasePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
+		this.driver=driver;
 	}
 
 	@FindBy(linkText ="Register")
@@ -19,43 +21,17 @@ public WebDriver driver;
 	@FindBy(partialLinkText ="Log in")
 	private WebElement Loginlink;
 
-	public WebElement getRegisterlink() {
-		return Registerlink;
-	}
-
-	public WebElement getLoginlink() {
-		return Loginlink;
-	}
-
-	public WebElement getShoppingCartlink() {
-		return ShoppingCartlink;
-	}
-
-	public WebElement getWishListlink() {
-		return WishListlink;
-	}
-
-	public WebElement getSearchButton() {
-		return SearchButton;
-	}
-
-	
-
 	@FindBy(partialLinkText ="Shopping cart")
 	private WebElement ShoppingCartlink;
-
-
+	
 	@FindBy(partialLinkText ="Wishlist")
 	private WebElement WishListlink;
-
 
 	@FindBy(xpath ="//input[@value='Search']")
 	private WebElement SearchButton ;
 
-
 	@FindBy(linkText ="BOOKS")
 	private WebElement BooksLink ;
-
 
 	@FindBy(linkText ="COMPUTERS")
 	private WebElement  ComputerLink;
@@ -78,6 +54,8 @@ public WebDriver driver;
 	@FindBy(partialLinkText = "Log out")
 	private WebElement Logout;
 
+
+
 	public WebElement getBooksLink() {
 		return BooksLink;
 	}
@@ -94,25 +72,45 @@ public WebDriver driver;
 		return apparelshoesLink;
 	}
 
+
 	public WebElement getDigitaldownloadsLink() {
 		return digitaldownloadsLink;
 	}
+
 
 	public WebElement getJewelryLink() {
 		return jewelryLink;
 	}
 
+
+	
 	public WebElement getGiftcards() {
 		return giftcards;
 	}
 
 
+		public WebElement getRegisterlink() {
+		return Registerlink;
+	}
+
+	public WebElement getLoginlink() {
+		return Loginlink;
+	}
+
+	public WebElement getShoppingCartlink() {
+		return ShoppingCartlink;
+	}
+
+	public WebElement getWishListlink() {
+		return WishListlink;
+	}
+
+	public WebElement getSearchButton() {
+		return SearchButton;
+	}
+	
 	public WebElement getLogout() {
 		return Logout;
 	}
 
 }
-
-
-
-

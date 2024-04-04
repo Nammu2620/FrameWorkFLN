@@ -12,8 +12,8 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseClass  {
 
-//	public BaseClass(WebDriver driver) {
-//		super(driver);
+//	public BaseClass() {
+//		//super(driver);
 //		// TODO Auto-generated constructor stub
 //	}
 
