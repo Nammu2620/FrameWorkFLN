@@ -11,7 +11,7 @@ public class LoginPage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(partialLinkText ="Log in")
+@FindBy(partialLinkText ="Log in")
 	private WebElement Loginlink;
 	
 	@FindBy(id = "Email")
@@ -25,6 +25,13 @@ public class LoginPage extends BasePage {
 
 	@FindBy(xpath = "//input[@value='Log in']")
 	private WebElement Login;
+
+	@FindBy(id="small-searchterms")
+	private WebElement searchBar; 
+	
+	public WebElement getSearchBar() {
+		return searchBar;
+	}
 
 	public WebElement getEmailtextbox() {
 		return emailtextbox;
@@ -46,6 +53,8 @@ public class LoginPage extends BasePage {
 		return Loginlink;
 	}
 
+	 
+	
 	public Home_Page Login_Actions(String username, String password)
 	{
 	
