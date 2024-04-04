@@ -8,7 +8,7 @@ import Element_Repo.Home_Page;
 import Element_Repo.LoginPage;
 import Generic_Library.BaseClass;
 
-public class TC01_AddToCart extends BaseClass{
+public class TC01_AddProToCart_Test extends BaseClass{
 	@Test
 	public void addToCart() {
 		LoginPage lp=new LoginPage(driver);

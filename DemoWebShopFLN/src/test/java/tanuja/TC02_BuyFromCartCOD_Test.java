@@ -7,7 +7,7 @@ import Element_Repo.Home_Page;
 import Element_Repo.LoginPage;
 import Generic_Library.BaseClass;
 
-public class TC02_BuyFromCartCOD extends BaseClass{
+public class TC02_BuyFromCartCOD_Test extends BaseClass{
 	@Test
 	public void buyProduct() {
 		LoginPage lp=new LoginPage(driver);
@@ -16,8 +16,6 @@ public class TC02_BuyFromCartCOD extends BaseClass{
 		driver.findElement(By.linkText("Black & White Diamond Heart")).click();
 		driver.findElement(By.xpath("//input[contains(@id,'button-14')]")).click();
 		hp.getShoppingCartlink().click();
-//		driver.findElement(By.xpath("//span[text()='Shopping cart']")).click();
-//		driver.findElement(By.linkText("Shopping cart")).click();
 		driver.findElement(By.id("termsofservice")).click();
 		driver.findElement(By.id("checkout")).click();
 		driver.findElement(By.xpath("//div[contains(@id,'billing')]/..//input[@title='Continue']")).click();
