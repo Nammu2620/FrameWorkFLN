@@ -9,19 +9,19 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeMethod;
 
-public class BaseClass extends BasePage {
+public class BaseClass  {
 
-	public BaseClass(WebDriver driver) {
-		super(driver);
-		// TODO Auto-generated constructor stub
-	}
+//	public BaseClass(WebDriver driver) {
+//		super(driver);
+//		// TODO Auto-generated constructor stub
+//	}
 
 
 	public WebDriver driver;
 	public WebDriverWait explicitWait;
 	public String Url = "https://demowebshop.tricentis.com/";
 
-	BasePage baseObj = new BasePage(driver);
+	//BasePage baseObj = new BasePage(driver);
 	@BeforeMethod
 	public void beforeclass() {
 		// Launch the browser
