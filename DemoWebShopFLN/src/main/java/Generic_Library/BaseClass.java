@@ -36,6 +36,7 @@ public class BaseClass  {
 
 	@AfterMethod
 	public void afterclass() {
+		//close browser
 		driver.quit();
 	}
 }
